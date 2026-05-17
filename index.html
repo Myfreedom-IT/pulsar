@@ -1,250 +1,199 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js" defer></script>
-    <title>Pulsar</title>
-  </head>
 
-  <body>
-    <div class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js  " defer></script>
+  <title>Pulsar</title>
+</head>
+
+<body>
+  <div class="container">
     <header>
-      <img src="/images/logo1.png" class="logo"/>
-        <ul class="nav-bar">
-          <li><a href="#" class="nav-items">ГЛАВНАЯ</a></li>
-          <li><a href="#" class="nav-items">ГАЛЕРЕЯ</a></li>
-          <li><a href="#" class="nav-items">О КОСМОСЕ</a></li>
-          <li><a href="#contacts" class="nav-items">КОНТАКТЫ</a></li>
-        </ul>
+      <img src="./images/logo1.png" class="logo" />
+      <ul class="nav-bar">
+        <li><a href="./index.html" class="nav-items">ГЛАВНАЯ</a></li>
+        <li><a href="./gallery/nasa-gallery.html" class="nav-items">ГАЛЕРЕЯ</a></li>
+        <li><a href="#contacts" class="nav-items">КОНТАКТЫ</a></li>
+      </ul>
     </header>
     <main>
       <div class="zagolovok">
-        <h1 >ОТКРОЙТЕ ВСЕЛЕННУЮ ЧЕРЕЗ ФОТОГРАФИИ</h1>
+        <h1>ОТКРОЙТЕ ВСЕЛЕННУЮ ЧЕРЕЗ ФОТОГРАФИИ</h1>
         <p>Путешестувйте по космосу с самыми захватывающими снимками</p>
       </div>
       <div class="planets-container" id="planetsContainer">
-       <div class="planets-row">
-        <div class="planet-card"  data-planet="mercury">
-          <div class="planet-img" id="planet-card">
-            <img
-              src="images/merkiruy.png"
-              alt="merkiriy"
-            />
+        <div class="planets-row">
+          <div class="planet-card" data-planet="mercury">
+            <div class="planet-img" id="planet-card">
+              <img src="images/merkiruy.png" alt="merkiriy" />
+            </div>
+            <div class="planet-name">Меркурий</div>
           </div>
-        <div class="planet-name">Меркурий</div>
-       </div>
-        <div class="planet-card" data-planet="venus">
-          <div class="planet-img" id="planet-card1">
-            <img
-              src="images/venera.png"
-              alt="venera"
-            />
+          <div class="planet-card" data-planet="venus">
+            <div class="planet-img" id="planet-card1">
+              <img src="images/venera.png" alt="venera" />
+            </div>
+            <div class="planet-name">Венера</div>
           </div>
-          <div class="planet-name">Венера</div>
-        </div>
 
-        <div class="planet-card" data-planet="earth">
-          <div class="planet-img" id="planet-card2">
-            <img
-              src="images/earth.png"
-              alt="earth"
-            />
+          <div class="planet-card" data-planet="earth">
+            <div class="planet-img" id="planet-card2">
+              <img src="images/earth.png" alt="earth" />
+            </div>
+            <div class="planet-name">Земля</div>
           </div>
-          <div class="planet-name">Земля</div>
-        </div>
 
-        <div class="planet-card" data-planet="mars">
-          <div class="planet-img" id="planet-card3">
-            <img
-              src="images/mars.png"
-              alt="mars"
-            />
+          <div class="planet-card" data-planet="mars">
+            <div class="planet-img" id="planet-card3">
+              <img src="images/mars.png" alt="mars" />
+            </div>
+            <div class="planet-name">Марс</div>
           </div>
-          <div class="planet-name">Марс</div>
-        </div>
 
-        <div class="planet-card" data-planet="jupiter">
-          <div class="planet-img" id="planet-card4">
-            <img
-              src="images/jupiter.png"
-              alt="jupiter"
-            />
+          <div class="planet-card" data-planet="jupiter">
+            <div class="planet-img" id="planet-card4">
+              <img src="images/jupiter.png" alt="jupiter" />
+            </div>
+            <div class="planet-name">Юпитер</div>
           </div>
-          <div class="planet-name">Юпитер</div>
-        </div>
 
-        <div class="planet-card" data-planet="saturn">
-          <div class="planet-img" id="planet-card5">
-            <img
-              src="images/saturn.png"
-              alt="saturns"
-            />
+          <div class="planet-card" data-planet="saturn">
+            <div class="planet-img" id="planet-card5">
+              <img src="images/saturn.png" alt="saturns" />
+            </div>
+            <div class="planet-name">Сатурн</div>
           </div>
-          <div class="planet-name">Сатурн</div>
-        </div>
 
-        <div class="planet-card" data-planet="uranus">
-          <div class="planet-img" id="planet-card6">
-            <img
-              src="images/uranus.png"
-              alt="uranus"
-            />
+          <div class="planet-card" data-planet="uranus">
+            <div class="planet-img" id="planet-card6">
+              <img src="images/uranus.png" alt="uranus" />
+            </div>
+            <div class="planet-name">Уран</div>
           </div>
-          <div class="planet-name">Уран</div>
-        </div>
 
-        <div class="planet-card" data-planet="neptune">
-          <div class="planet-img" id="planet-card7">
-            <img
-              src="images/neptun.png"
-              alt="neptun"
-            />
-          </div>
-          <div class="planet-name">Нептун</div>
-        </div>
-      </div>
-    </div>
-
-<!-- <h1 class="zagolovok">ПОСЛЕДНИЕ ФОТОГАФИИ</h1> -->
-    <div class="container-images" id="containerImages">
-      <div class="images-row">
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/img1.jpg"
-              class="border"
-            />
-          </div>
-        </div>
-
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/img2.jpg"
-              class="border"
-            />
-          </div>
-        </div>
-
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/img3.jpg"
-              class="border"
-            />
-          </div>
-        </div>
-
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/img4.jpg"
-              class="border"
-            />
-          </div>
-        </div>
-
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/img5.jpg"
-              class="border"
-            />
-          </div>
-        </div>
-
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/PhotosFromUranus.jpg"
-              class="border"
-            />
-          </div>
-        </div>
-
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/PhotosFromSaturn.jpg"
-              class="border"
-            />
-          </div>
-        </div>
-
-        <div class="images-card">
-          <div class="front-image">
-            <img
-              src="images/img6.png"
-              class="border"
-            />
+          <div class="planet-card" data-planet="neptune">
+            <div class="planet-img" id="planet-card7">
+              <img src="images/neptun.png" alt="neptun" />
+            </div>
+            <div class="planet-name">Нептун</div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="container-images" id="containerImages">
+        <p class="last1"><a href="./gallery/nasa-gallery.html" class="last">ПОСЛЕДНИИ ФОТОГАФИИ</a></p>
+        <div class="images-row">
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/1.jpg" class="border" />
+            </div>
+          </div>
 
-    <div class="modal-overlay" id="modalOverlay">
-      <div class="modal-content" id="modalContent">
-        <div class="modal-header">
-          <h2 id="Name">Название планеты</h2>
-          <button class="close-btn" id="closeBtn">x</button>
-        </div>
-        <div class="modal-body">
-          <div id="PlanetImg" class="planet-img"><img src="" width="90%"></div>
-          <div class="planet-desc" id="PlanetDesc">
-            <p id="desc">Описание планеты</p>
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/2.jpg" class="border" />
+            </div>
+          </div>
+
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/3.jpg" class="border" />
+            </div>
+          </div>
+
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/4.jpg" class="border" />
+            </div>
+          </div>
+
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/5.jpg" class="border" />
+            </div>
+          </div>
+
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/6.jpg" class="border" />
+            </div>
+          </div>
+
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/7.jpg" class="border" />
+            </div>
+          </div>
+
+          <div class="images-card">
+            <div class="front-image">
+              <img src="./images/8.jpg" class="border" />
+            </div>
           </div>
         </div>
       </div>
 
-      
+      <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+          <div class="modal-header">
+            <h2 id="Name">Название планеты</h2>
+            <button class="close-btn" id="closeBtn">✕</button>
+          </div>
+          <div class="modal-body">
+            <div id="PlanetImg" class="planet-img"><img src="" width="90%"></div>
+            <div class="planet-desc" id="PlanetDesc">
+              <p id="desc">Описание планеты</p>
+            </div>
+          </div>
+        </div>
     </main>
     <footer class="footer">
-    <div class="footer-container">
+      <div class="footer-container">
         <div class="footer-section">
-            <h3>О компании</h3>
-            <p>Мы создаем качественные информационные сайты. Наша миссия - помогать людям расти и развиваться в цифровом пространстве.</p>
-            <div class="social-links">
-                <a href="#"><i class="facebook"></i></a>
-                <a href="#"><i class="twitter"></i></a>
-                <a href="#"><i class="instagram"></i></a>
-            </div>
+          <h3>О компании</h3>
+          <p>Мы создаем качественные информационные сайты. Наша миссия - помогать людям расти и развиваться в цифровом
+            пространстве.</p>
+          <div class="social-links">
+            <a href="#"><i><img src="./images/instagram-256x256.png" class="instagram"></i></a>
+            <a href="#"><i class="telegram"><img src="./images/telegram-256x256.png" alt=""></i></a>
+            <a href="#"><i class="twitter"><img src="./images/1303506232_social_twitter_button_blue-256x256.png"
+                  alt=""></i></a>
+          </div>
         </div>
 
         <div class="footer-section">
-            <h3>Услуги</h3>
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+          <h3>Услуги</h3>
+          <ul>
+            <li><a href="#">Отправить отчет о какой-либо планете</a></li>
+            <li><a href="#">Точный прогноз погоды</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
         </div>
-        
+
         <div class="footer-section">
-            <h3 id="contacts">Контакты</h3>
-            <ul class="contact-info">
-                <li><i class="fas fa-map-marker-alt"></i> <span>г. Минск ул. Октябрьская, 15</span></li>
-                <li><i class="fas fa-phone"></i> <span>+375 (29) 123-45-67</span></li>
-                <li><i class="fas fa-envelope"></i> <span>info@company.by</span></li>
-                <li><i class="fas fa-clock"></i> <span>Пн-Пт: 9:00 - 20:00</span></li>
-            </ul>
+          <h3 id="contacts">Контакты</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> <span>г. Минск ул. Октябрьская, 15</span></li>
+            <li><i class="fas fa-phone"></i> <span>+375 (29) 123-45-67</span></li>
+            <li><i class="fas fa-envelope"></i> <span>info@company.by</span></li>
+            <li><i class="fas fa-clock"></i> <span>Пн-Пт: 9:00 - 20:00</span></li>
+          </ul>
         </div>
-    </div>
-    
-    <div class="footer-bottom">
+      </div>
+
+      <div class="footer-bottom">
         <p>&copy; 2026 Все права защищены. Создано с <i class="fas fa-heart"></i> для вашего бизнеса</p>
         <div class="footer-links">
-            <a href="#">Конфиденциальность</a>
-            <a href="#">Условия использования</a>
-            <a href="#">Карта сайта</a>
+          <a href="#">Конфиденциальность</a>
+          <a href="#">Условия использования</a>
+          <a href="#">Карта сайта</a>
         </div>
-    </div>
-</footer>
-     
-<script src="script.js"></script>
- </body>
+      </div>
+    </footer>
+</body>
 
 </html>

@@ -29,7 +29,9 @@ img {
     height: 100px;
     padding-left: 5%;
 }
-
+a {
+    display: inline-block;
+}
 header {
     position: fixed;
     top: 0;
@@ -41,16 +43,19 @@ header {
     color: white;
     padding: 10px;
     justify-content: space-between;
+    z-index: 9;
 }
-
+header .container{
+display: flex;
+justify-content: space-between;
+align-items: center
+}
 .nav-bar {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
-    margin-right: 5%;
-    transition: 150ms;
 }
 .dopclass{
     min-height: 60vh;

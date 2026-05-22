@@ -52,6 +52,9 @@ header {
     margin-right: 5%;
     transition: 150ms;
 }
+.dopclass{
+    min-height: 60vh;
+}
 
 .nav-bar :hover {
     color: #667eea;
